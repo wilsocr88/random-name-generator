@@ -1,0 +1,19 @@
+{
+  "name": "name-generator",
+  "private": "true",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": "Craig Wilson <wilsocr88@gmail.com>",
+  "description": "Generates 10 randomized fantasy/scifi names and places them into the variable window.names",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node src/index.js",
+    "test": "node src/runTests.js",
+    "build": "npx webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
